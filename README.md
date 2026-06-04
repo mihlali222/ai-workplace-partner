@@ -1,49 +1,65 @@
-# Project Name
+# AI Workplace Productivity Assistant
 
 ## Project Overview
 
-This project is designed to provide a solution for **[briefly describe the problem your project solves]**. It enables users to **[main purpose or functionality]** through an intuitive and efficient interface.
+The AI Workplace Productivity Assistant is a web-based application designed to help professionals automate common workplace tasks using Artificial Intelligence. The platform improves productivity by reducing the time spent on repetitive activities such as writing emails, summarizing meeting notes, planning tasks, conducting research, and answering workplace-related queries.
 
-The application aims to:
-
-* Simplify **[specific task]**
-* Improve **[process or workflow]**
-* Deliver a reliable and user-friendly experience
+The application provides a centralized dashboard where users can access multiple AI-powered tools through a clean and responsive interface. The solution demonstrates practical AI implementation, prompt engineering, modern UI/UX design, and responsible AI practices.
 
 ---
 
 ## Features
 
-* Feature 1: **[Description of feature]**
-* Feature 2: **[Description of feature]**
-* Feature 3: **[Description of feature]**
-* Feature 4: **[Description of feature]**
-* Responsive and user-friendly interface
-* Error handling and validation
-* Secure and scalable architecture
+### 1. Smart Email Generator
+
+* Generates professional emails based on user input.
+* Supports multiple tones:
+
+  * Formal
+  * Friendly
+  * Persuasive
+* Customizes content for different audiences such as managers, clients, and team members.
+
+### 2. Meeting Notes Summarizer
+
+* Converts lengthy meeting notes into concise summaries.
+* Extracts key discussion points.
+* Identifies action items, responsibilities, and deadlines.
+
+### 3. AI Task Planner
+
+* Creates structured daily or weekly schedules.
+* Prioritizes tasks based on urgency and importance.
+* Helps users manage workloads more effectively.
+
+### 4. AI Research Assistant
+
+* Summarizes topics, reports, and articles.
+* Highlights key insights and recommendations.
+* Simplifies complex information for quick understanding.
+
+### 5. AI Chatbot Interface
+
+* Provides an interactive workplace assistant experience.
+* Responds to user questions and productivity-related requests.
+* Supports multiple prompt interactions.
+
+### Responsible AI Features
+
+* AI-generated content disclaimer.
+* Encourages user verification of outputs.
+* Highlights limitations and potential inaccuracies of AI-generated responses.
 
 ---
 
 ## Tools Used
 
-### Frontend
-
-* **[Framework/Library]** (e.g., React, Vue, Angular)
-* **HTML5**
-* **CSS3 / Tailwind CSS / Bootstrap**
-* **JavaScript / TypeScript**
-
-### Backend
-
-* **[Backend Framework]** (e.g., Node.js, Express, Django, Flask)
-* **[Database]** (e.g., MongoDB, PostgreSQL, MySQL)
-
-### Development Tools
-
-* Git & GitHub
-* VS Code
-* npm / yarn
-* Postman (for API testing)
+* Lovable AI (Application Development)
+* ChatGPT/OpenAI (AI Content Generation)
+* GitHub (Version Control and Project Hosting)
+* React (Generated through Lovable)
+* Tailwind CSS (User Interface Styling)
+* HTML, CSS, and JavaScript
 
 ---
 
@@ -51,24 +67,23 @@ The application aims to:
 
 ### Prerequisites
 
-Ensure the following are installed on your machine:
-
-* Node.js (latest LTS version)
-* npm or yarn
-* Git
+* Node.js installed
+* Git installed
+* GitHub account
+* Lovable AI account
 
 ### Installation
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/project-name.git
+git clone https://github.com/yourusername/AI-Workplace-Productivity-Assistant.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd project-name
+cd AI-Workplace-Productivity-Assistant
 ```
 
 3. Install dependencies:
@@ -77,61 +92,28 @@ cd project-name
 npm install
 ```
 
-### Environment Variables
-
-Create a `.env` file in the root directory and add the required environment variables:
-
-```env
-PORT=3000
-DATABASE_URL=your_database_connection_string
-API_KEY=your_api_key
-```
-
-### Run the Application
-
-Start the development server:
-
-```bash
-npm start
-```
-
-or
+4. Start the development server:
 
 ```bash
 npm run dev
 ```
 
-### Build for Production
-
-```bash
-npm run build
-```
-
-### Run Tests
-
-```bash
-npm test
-```
-
----
-
-## Project Structure
+5. Open your browser and navigate to:
 
 ```text
-project-name/
-├── src/
-├── public/
-├── components/
-├── pages/
-├── services/
-├── tests/
-├── .env
-├── package.json
-└── README.md
+http://localhost:5173
 ```
 
 ---
 
-## License
+## Responsible AI Disclaimer
 
-This project is licensed under the MIT License.
+This application uses Artificial Intelligence to generate responses and recommendations. AI-generated content may contain inaccuracies or incomplete information. Users should review and verify all outputs before making professional, business, or personal decisions.
+
+---
+
+## Author
+
+Mihlali Ketshane
+
+CAPACITI AI Skills Accelerator Programme
